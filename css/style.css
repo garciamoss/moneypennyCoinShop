@@ -1,6 +1,6 @@
 body { background-color: #f1f0e2; font-family: 'Lato';}
 
-
+/*Navbar styling*/
 .navbar {position: fixed; width: 100%; background-color: #555 !important; z-index: 10;}
 .navbar-nav {margin-left: auto; margin-right: 0 !important;}
 .navbar-brand {color: #f1f0e2 !important; font-family: 'Limelight'; font-size: 1.6em;}
@@ -10,6 +10,13 @@ body { background-color: #f1f0e2; font-family: 'Lato';}
 .nav-item {margin: 0px 15px;}
 .shop {margin-left: 2rem; border-left: 1px solid #f1f0e2;padding-left: 1rem;}
 
+/*Homepage*/
+#intro {padding-top: 5.375rem;}
+.jumbotron {background-image: url("../images/coins.jpeg"); background-size: cover; height: 30rem; color: #f1f0e2; display: flex;
+    align-items: center; justify-content: center;}
+#intro .container {text-align: center;}
+.display-4 {font-family: 'Limelight';}
+
 
 .carousel {height: 25rem;background-color: aqua;}
 
@@ -17,4 +24,4 @@ body { background-color: #f1f0e2; font-family: 'Lato';}
 footer {width: 100%; margin: 0 auto; height: 48px; padding: 10px; display: inline-flex; 
     background-color: #555; color: #f1f0e2; align-content: center; justify-content: center;}
 footer li {color: #f1f0e2; display: inline;padding-right: .75rem;}
-footer img {height: 28px;}
+footer img {height: 28px;}0
