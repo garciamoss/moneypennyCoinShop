@@ -18,8 +18,8 @@ h1 {font-size: 2rem; font-weight: 500;}
 #intro .container {text-align: center;}
 .display-4 {font-family: 'Limelight';}
 /*Card section*/
-.gold {background-color: #d4af37;}
-.silver {background-color: silver;}
+.gold {background-color: #d4af37 !important;}
+.silver {background-color: silver !important;}
 .copper {background-color: #B87333 !important;}
 
 
