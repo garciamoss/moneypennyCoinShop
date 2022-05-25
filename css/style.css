@@ -8,6 +8,7 @@ body { background-color: #f1f0e2; font-family: 'Lato';}
 .navbar a {color: #f1f0e2 !important;}
 .dropdown-menu {background: #555 !important; color: #f1f0e2;}
 .nav-item {margin: 0px 15px;}
+.shop {margin-left: 2rem; border-left: 1px solid #f1f0e2;padding-left: 1rem;}
 
 
 .carousel {height: 25rem;background-color: aqua;}
