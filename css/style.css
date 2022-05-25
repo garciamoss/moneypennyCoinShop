@@ -6,6 +6,8 @@ body { background-color: #f1f0e2; font-family: 'Lato';}
 .navbar-brand {color: #f1f0e2 !important; font-family: 'Limelight'; font-size: 1.6em;}
 .navbar-brand img {padding-right: 15px;}
 .navbar a {color: #f1f0e2 !important;}
+.dropdown-menu {background: #555 !important; color: #f1f0e2;}
+.nav-item {margin: 0px 15px;}
 
 
 .carousel {height: 25rem;background-color: aqua;}
