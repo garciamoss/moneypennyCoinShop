@@ -14,7 +14,7 @@ h1 {font-size: 2rem; font-weight: 500;}
 
 /*Homepage*/
 #intro {padding-top: 5.375rem;}
-.jumbotron {background-image: url("../images/coins.jpeg"); background-size: cover; height: 30rem; color: #f1f0e2; display: flex;
+#intro .jumbotron {background-image: url("../images/coins.jpeg"); background-size: cover; height: 30rem; color: #f1f0e2; display: flex;
     align-items: center; justify-content: center;}
 #intro .container {text-align: center;}
 .display-4 {font-family: 'Limelight';}
