@@ -1,6 +1,7 @@
-body { background-color: #f1f0e2; font-family: 'Lato';}
+body {background-color: #f1f0e2; background-image: url("../images/1027.png"); font-family: 'Lato';}
 h1 {font-size: 2rem; font-weight: 500;}
 .btn-primary {background-color: #14356d !important;}
+.btn-primary:hover {background-color: #f78137 !important; border: 0px;}
 
 /*Navbar styling*/
 .navbar {position: fixed; width: 100%; background-color: #555 !important; z-index: 10;}
@@ -10,12 +11,13 @@ h1 {font-size: 2rem; font-weight: 500;}
 .navbar a {color: #f1f0e2 !important;}
 .dropdown-menu {background: #555 !important; color: #f1f0e2;}
 .nav-item {margin: 0px 15px;}
+.nav-link:hover {color: #23a753 !important;}
+.dropdown-item:hover {background-color: #23a753;}
 .shop {margin-left: 2rem; border-left: 1px solid #f1f0e2;padding-left: 1rem;}
 
 /*Homepage*/
 #intro {padding-top: 5.375rem;}
-#intro .jumbotron {background-image: url("../images/coins.jpeg"); background-size: cover; height: 30rem; color: #f1f0e2; display: flex;
-    align-items: center; justify-content: center;}
+#intro .jumbotron {background-image: url("../images/coins.jpeg"); background-size: cover; height: 30rem; color: #f1f0e2; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;}
 #intro .container {text-align: center;}
 .display-4 {font-family: 'Limelight';}
 /*Card section*/
@@ -28,13 +30,16 @@ h1 {font-size: 2rem; font-weight: 500;}
 .sidebar { background-color: #5a3939; padding-right: 0;} 
 #accordion .card {background-color: #5a3939 !important; color: #f1f0e2;}
 #accordion .btn {text-decoration: none; color: #f1f0e2;}
-#slides {position: relative;}
-.carousel {height: 25rem;background-color:#333; margin-bottom: 3rem;}
+#accordion .btn:hover {color: #f78137}
+.carousel {height: 30rem;background-color:#333; margin-bottom: 3rem;}
 .col-10 {padding-left: 0%;}
 .col-10 h1 {text-align: center;}
 .coins {padding: 2rem 3rem;}
 .coins .row {margin-bottom: 2rem; text-align: center;}
 .coins .card-img-top {padding: .5rem;}
+
+/*Coin Show*/
+.col-10 .jumbotron {background-image: url("../images/coinShow.jpeg"); background-size: cover; height: 30rem; color: #f1f0e2; display: flex; margin-bottom: 3rem;}
 
 
 footer {width: 100%; margin: 0 auto; height: 48px; padding: 10px; display: inline-flex; 
