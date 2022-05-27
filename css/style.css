@@ -1,5 +1,6 @@
 body { background-color: #f1f0e2; font-family: 'Lato';}
 h1 {font-size: 2rem; font-weight: 500;}
+.btn-primary {background-color: #14356d !important;}
 
 /*Navbar styling*/
 .navbar {position: fixed; width: 100%; background-color: #555 !important; z-index: 10;}
@@ -24,10 +25,13 @@ h1 {font-size: 2rem; font-weight: 500;}
 
 /*Inventory*/
 .wrapper {padding-top: 5.375rem;}
-.sidebar { background-color: #B87333; padding-right: 0;} 
+.sidebar { background-color: #5a3939; padding-right: 0;} 
 #slides {position: relative;}
-.carousel {height: 25rem;background-color:#333;}
+.carousel {height: 25rem;background-color:#333; margin-bottom: 3rem;}
 .col-10 {padding-left: 0%;}
+.col-10 h1 {text-align: center;}
+.coins {padding: 2rem 3rem;}
+.coins .row {margin-bottom: 2rem; text-align: center;}
 
 
 footer {width: 100%; margin: 0 auto; height: 48px; padding: 10px; display: inline-flex; 
