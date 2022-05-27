@@ -39,8 +39,7 @@ h1 {font-size: 2rem; font-weight: 500;}
 .coins .card-img-top {padding: .5rem;}
 
 /*Coin Show*/
-.col-10 .jumbotron {background-image: url("../images/coinShow.jpeg"); background-size: cover; height: 30rem; color: #f1f0e2; display: flex; margin-bottom: 3rem;}
-
+.col-10 .jumbotron {width: 100%;  background-image: url("../images/coinShow.jpeg"); background-size: cover; height: 30rem; color: #f1f0e2; display: flex; margin-bottom: 3rem;}
 
 footer {width: 100%; margin: 0 auto; height: 48px; padding: 10px; display: inline-flex; 
     background-color: #555; color: #f1f0e2; align-content: center; justify-content: center;}
