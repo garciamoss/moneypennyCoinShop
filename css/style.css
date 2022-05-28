@@ -21,7 +21,8 @@ h1 {font-size: 2rem; font-weight: 500; text-align: center;}
 #intro .container {text-align: center;}
 .display-4 {font-family: 'Limelight';}
 /*Card section*/
-#cards {padding: 2rem 3rem;}
+#cards {padding: 2rem 3rem;display: flex; align-items: center; justify-content: center;}
+#cards {margin: 0 auto;}
 #cards .row {margin-bottom: 2rem;}
 .gold {background-color: #d4af37 !important;}
 .silver {background-color: silver !important;}
