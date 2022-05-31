@@ -17,7 +17,7 @@ h1 {font-size: 2rem; font-weight: 500; text-align: center;}
 
 /*Homepage*/
 #intro {padding-top: 5.375rem; margin-bottom: 3rem;}
-#intro .jumbotron {background-image: url("../images/coins.jpeg"); background-size: cover; height: 25rem; color: #f1f0e2; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;}
+#intro .jumbotron {background-image: url("../images/coins.jpeg"); background-size: cover; height: 30rem; color: #f1f0e2; display: flex; align-items: center; justify-content: center; margin-bottom: 3rem;}
 #intro .container {text-align: center;}
 .display-4 {font-family: 'Limelight';}
 /*Card section*/
@@ -35,7 +35,7 @@ h1 {font-size: 2rem; font-weight: 500; text-align: center;}
 #accordion .btn {text-decoration: none; color: #f1f0e2;}
 #accordion .btn:hover {color: #f78137}
 #slides {margin-bottom: 3rem;}
-.carousel {height: 27rem; background-color:#333;}
+.carousel {height: 25rem; background-color:#333;}
 .col-10 {padding-left: 0%;}
 .col-10 h1 {text-align: center;}
 .coins {padding: 2rem 3rem;}
@@ -43,7 +43,7 @@ h1 {font-size: 2rem; font-weight: 500; text-align: center;}
 .coins .card-img-top {padding: .5rem;}
 
 /*Coin Show*/
-.col-10 .jumbotron {width: 100%;  background-image: url("../images/coinShow.jpeg"); background-size: cover; height: 25rem; color: #f1f0e2; display: flex;}
+.col-10 .jumbotron {width: 100%;  background-image: url("../images/coinShow.jpeg"); background-size: cover; height: 30rem; color: #f1f0e2; display: flex;}
 #jumbo {margin-bottom: 3rem;}
 #shows {padding: 2rem 3rem;}
 #shows .row {margin-bottom: 2rem;}
